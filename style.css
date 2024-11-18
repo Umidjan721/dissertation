@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list1 {
+  display: flex;
+  flex: 0 auto;
+  align-items: center;
+}
+
+.menu {
+  width: 186px;
+}
+
+.logo {
+  width: 214px;
+  margin-left: 154px;
+  margin-top: 32px;
+  margin-bottom: 33px;
+}
+
+.loc {
+  display: flex;
+  align-items: center;
+  margin-left: 98px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.span {
+  margin-left: 5px;
+  margin-left: 11px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.Location {
+  width: 26px;
+  height: 26px;
+}
+
+.geo {
+  margin-left: 371px;
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.Geography {
+  width: 26px;
+  height: 26px;
+}
+
+#tel {
+  margin-left: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.line {
+  width: 1px;
+  height: 111px;
+  background-color: #ebeef0;
+  margin-left: 228px;
+}
+
+#Mail {
+  width: 26px;
+  height: 21px;
+  margin-left: 42px;
+  margin-top: 44px;
+  margin-bottom: 45px;
+  margin-right: 41px;
+}
+
+/* 2 экран */
+
+.navbar {
+  border-bottom: 1px solid #ebeef0;
+  border-top: 1px solid #ebeef0;
+  display: flex;
+  align-items: center;
+  height: 88px;
+  background: #fbfbfe;
+}
+
+.menyu {
+  margin-left: 371px;
+  width: 797px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menyu span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Ubuntu;
+}
+
+.line2 {
+  width: 1px;
+  height: 32px;
+  background: #dde2e4;
+  margin-left: 139px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 180%;
+  color: #a4a9b1;
+  margin-left: 140px;
+}
+
+#search-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#red {
+  color: red;
+}
+
+/* 3 экран */
+
+#main-part {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 135%;
+  margin-left: 154px;
+}
+
+.slide {
+  display: flex;
+  margin-top: 64px;
+  gap: 32px 150px;
+}
+
+.text-section h1 {
+  margin-right: calc(20px + (150 - 20) * ((100vw - 375px) / (1920 - 360)));
+  font-size: calc(27px + (64 - 27) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-left: calc(20px + (152 - 20) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.text-section p {
+  font-family: Ubuntu;
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 400;
+  line-height: 180%;
+  margin-top: calc(24px + (56 - 24) * ((100vw - 375px) / (1920 - 360)));
+  margin-left: calc(20px + (152 - 20) * ((100vw - 375px) / (1920 - 360)));
+  margin-right: calc(20px + (150 - 20) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+.text-section span {
+  text-transform: uppercase;
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 180%;
+  margin-left: calc(20px + (154 - 20) * ((100vw - 375px) / (1920 - 360)));
+  margin-top: calc(51px + (118 - 51) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.arrow img {
+  margin-top: calc(40px + (118 - 40) * ((100vw - 375px) / (1920 - 360)));
+  margin-left: calc(0px + (40 - 0) * ((100vw - 375px) / (1920 - 360)));
+}
+
+#image-section {
+  width: calc(360px + (960 - 360) * ((100vw - 375px) / (1920 - 360)));
+  height: calc(263px + (700 - 263) * ((100vw - 375px) / (1920 - 360)));
+}
+
+/* 4 экран */
+
+.stats-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1920px;
+  margin-left: calc(20px + (154 - 20) * ((100vw - 375px) / (1920 - 360)));
+  margin-right: calc(20px + (340 - 20) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.stet-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.stat-box h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.6px;
+  color: #a4a9b1;
+  margin-top: 63px;
+}
+
+.stat-number {
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 125px;
+  color: #a0b715;
+  margin-top: 8px;
+}
+
+.stat-description {
+  width: 215px;
+  height: 45px;
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 400;
+  line-height: 160%;
+  color: #575f6c;
+  margin-top: calc(18px + (39 - 18) * ((100vw - 375px) / (1920 - 360)));
+  margin-right: calc(20px + (116 - 20) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.line3 {
+  width: 1240px;
+  height: 1px;
+  background: #dde2e4;
+  margin-left: 154px;
+  margin-right: 340px;
+  margin-top: 112px;
+}
+
+/* 5 экран */
+
+.vacancies-section {
+  border: 1px solid #dde2e4;
+  margin-left: calc(20px + (155 - 20) * ((100vw - 375px) / (1920 - 360)));
+  margin-right: calc(50px + (339 - 50) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.vacancies-section h2 {
+  font-size: calc(24px + (56 - 24) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.vacancies-categories {
+  display: flex;
+  margin-top: 87px;
+}
+
+.category {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  color: #575f6c;
+  background-color: #dde2e4;
+}
+
+.category img {
+  border: 1px solid #ddd;
+}
+
+.category p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 135%;
+  color: #333;
+  font-weight: bold;
+}
+
+.programm {
+  margin-top: 48px;
+  margin-left: 80px;
+  margin-right: 56px;
+  margin-bottom: 61px;
+}
+.vacancies-list p {
+  font-size: calc(16px + (18 - 16) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 135%;
+  text-align: center;
+}
+
+.vacancies-list ul {
+  margin-top: 32px;
+  list-style-type: none;
+}
+
+#backcolor {
+  background-color: #f7f8fa;
+}
+
+.vacancies-list li {
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 400;
+  line-height: 135%;
+  padding: 8px 0;
+  padding-top: calc(16px + (20 - 16) * ((100vw - 375px) / (1920 - 360)));
+  padding-bottom: calc(16px + (20 - 16) * ((100vw - 375px) / (1920 - 360)));
+  padding-left: calc(16px + (48 - 16) * ((100vw - 375px) / (1920 - 360)));
+}
+
+/* 6 экран */
+
+.slide-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 24px 89px;
+  border: 2px solid #dde2e4;
+  margin-top: calc(48px + (128 - 48) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.image-container {
+  margin-top: 75px;
+  width: 705px;
+  height: 684px;
+  text-align: left;
+  margin-right: 89px;
+  background-image: url(./img/shutterstock_215933638.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 135%;
+  background-color: rgba(255, 255, 255, 0.7); /* Белый фон с прозрачностью */
+  backdrop-filter: blur(10px);
+  padding: 30px 70px;
+}
+
+.text-item {
+  width: calc(232px + (307 - 232) * ((100vw - 375px) / (1920 - 360)));
+  gap: 24px 24px;
+}
+
+.text-container {
+  margin-top: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: calc(24px + (56 - 24) * ((100vw - 375px) / (1920 - 360)));
+}
+
+.text-content {
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 150%;
+}
+
+/* 7 экран */
+
+.container {
+  margin-left: 340px;
+  margin-right: 340px;
+  margin-top: 112px;
+}
+
+.h2 {
+  font-size: calc(24px + (56 - 24) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 7px;
+  margin-top: 87px;
+}
+
+.stage {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 20px;
+  /* border: 1px solid #f7f8fa; */
+  background-color: #f7f8fa;
+  width: 400px;
+  height: 201px;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 135%;
+  color: #cbe724;
+  margin-right: 48px;
+}
+
+.stage p {
+  font-size: calc(14px + (16 - 14) * ((100vw - 375px) / (1920 - 360)));
+  font-weight: 500;
+  line-height: 150%;
+  margin-right: 48px;
+  text-align: start;
+}
