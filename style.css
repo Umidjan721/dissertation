@@ -363,7 +363,7 @@
   margin-top: 96px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 90px 56px;
   margin-bottom: calc(24px + (56 - 24) * ((100vw - 375px) / (1920 - 360)));
 }
 
